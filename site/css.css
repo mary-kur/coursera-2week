@@ -34,11 +34,12 @@ h2 {
     border: 1px solid black;
 }
 
-/*Text style*/
 p {
-    
+    margin: auto;
+	width: 90%;
+	height: 100%;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 5px;
     
 }
@@ -66,11 +67,6 @@ p {
 .sushi {
     background-color: pink;
 }
-
-/*class for simple responsive framework*/
-
-
-/*** Browser ****/
 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -113,8 +109,6 @@ p {
 		width: 100%;
 	}
 }
-
-/*** Tablet 768-991px **/ 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -217,46 +211,12 @@ p {
 
 
 
-
-/***
-
-
- 
+////****
 
 
-h2 {
-	width: 35%;
-    position: relative;
-    left: 66%;
-    right: 0;
-    top: 0;
-    margin-top: 0;
-    border: 1px solid black;
-}
 
 
-p {
 
-	margin: auto;
-	width: 90%;
-	height: 100%;
-	font-family: Helvetica;
-	color: white; 
-}
-
-
-.chicken {
-	background-color: red;
-}
-.beef {
-	background-color: red;
-}
-.sushi {
-	background-color: red;
-}
-
-
-/*** Browser <992px 
 
 
 
